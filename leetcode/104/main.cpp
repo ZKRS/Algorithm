@@ -2,6 +2,7 @@
 #include <algorithm>
 #include <vector>
 #include <ctime>
+#include <random>
 
 using namespace std;
 
@@ -37,19 +38,23 @@ private:
     int N, range_min, range_max, range; // N: count of nodes  range_min: minimum value of all nodes
     int decision; // 0: left  1: right  2: both
 
+    int generateNumber() {
+        random_device r;
+        default_random_engine el(r());
+        uniform_int_distribution<int> uniform_dist(range_min, range_max);
+        return uniform_dist(el);
+    }
 
     void createRandomBinaryTree(TreeNode *root, int current_count) {
         if (current_count > N) return;
 
-        srand((unsigned) time(NULL));
-        decision = rand() % 3;
-//        decision = 2;
-//        cout << decision << endl;
+        decision = generateNumber() % 3;
+        cout << decision << endl;
         if (decision == 0) { // add left child
             if (root->index * 2 > N) return;
             if (root->left == nullptr) {
                 TreeNode *node = new TreeNode();
-                node->val = rand() % range + range_min;
+                node->val = generateNumber();
                 node->index = root->index * 2;
                 node->parent = root;
                 root->left = node;
@@ -60,7 +65,7 @@ private:
             if (root->index * 2 + 1 > N) return;
             if (root->right == nullptr) {
                 TreeNode *node = new TreeNode();
-                node->val = rand() % range + range_min;
+                node->val = generateNumber();
                 node->index = root->index * 2 + 1;
                 node->parent = root;
                 root->right = node;
@@ -71,7 +76,7 @@ private:
             if (root->index * 2 > N) return;
             if (root->left == nullptr) {
                 TreeNode *node = new TreeNode();
-                node->val = rand() % range + range_min;
+                node->val = generateNumber();
                 node->index = root->index * 2;
                 node->parent = root;
                 root->left = node;
@@ -80,7 +85,7 @@ private:
             if (root->index * 2 + 1 > N) return;
             if (root->right == nullptr) {
                 TreeNode *node = new TreeNode();
-                node->val = rand() % range + range_min;
+                node->val = generateNumber();
                 node->index = root->index * 2 + 1;
                 node->parent = root;
                 root->right = node;
@@ -111,6 +116,7 @@ private:
 public:
     Solution(int N, int range_min, int range_max) {
         this->N = N;
+        this->h1 = this->h2 = this->decision = 0;
         this->range_min = range_min;
         this->range_max = range_max;
         this->range = range_max - range_min + 1;
@@ -134,12 +140,12 @@ public:
 };
 
 int main() {
-    int N = 10;
+    int N = 20;
     int range_min = 1;
     int range_max = 100;
     Solution s = Solution(N, range_min, range_max);
     s.createRandomBinaryTree();
-    cout << "中序遍历: " ;
+    cout << "中序遍历: " << endl;
     s.trace();
     cout << "max depth: " << s.maxDepth() << endl;
     return 0;
