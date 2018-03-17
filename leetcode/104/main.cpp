@@ -139,6 +139,7 @@ int main() {
     int range_max = 100;
     Solution s = Solution(N, range_min, range_max);
     s.createRandomBinaryTree();
+    cout << "中序遍历: " ;
     s.trace();
     cout << "max depth: " << s.maxDepth() << endl;
     return 0;
