@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/e/wangqingAlgorithm/sort/heap/main.cpp
+iostream
+-
+ctime
+-
+algorithm
+-
+w32api/synchapi.h
+-
+

@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/merge.dir/main.cpp.o  -o merge.exe -Wl,--out-implib,libmerge.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

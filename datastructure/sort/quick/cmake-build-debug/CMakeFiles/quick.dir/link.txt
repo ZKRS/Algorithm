@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/quick.dir/main.cpp.o  -o quick.exe -Wl,--out-implib,libquick.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

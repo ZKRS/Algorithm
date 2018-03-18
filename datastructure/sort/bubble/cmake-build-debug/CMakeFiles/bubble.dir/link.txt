@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/bubble.dir/main.cpp.o  -o bubble.exe -Wl,--out-implib,libbubble.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

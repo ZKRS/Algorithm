@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/selection.dir/main.cpp.o  -o selection.exe -Wl,--out-implib,libselection.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
