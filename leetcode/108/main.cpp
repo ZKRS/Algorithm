@@ -32,7 +32,7 @@ public:
     }
 
     TreeNode *solve(vector<int> nums, vector<int>::iterator it, int left, int right) {
-        if (it != nums.end()) {
+        if (it != nums.end() && left < right) {
             it++;
             int mid = left + ((right - left) >> 1);
             TreeNode *root = new TreeNode(nums[mid]);
