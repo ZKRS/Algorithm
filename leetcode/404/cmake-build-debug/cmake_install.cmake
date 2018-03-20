@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Install script for directory: /cygdrive/e/wangqingAlgorithm/leetcode/404
+=======
+# Install script for directory: /cygdrive/d/wangqingAlgorithm/leetcode/404
+>>>>>>> 441dfbd19d8af4ef8f69dd73af6534f08c5faeeb
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -35,5 +39,9 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
+<<<<<<< HEAD
 file(WRITE "/cygdrive/e/wangqingAlgorithm/leetcode/404/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+=======
+file(WRITE "/cygdrive/d/wangqingAlgorithm/leetcode/404/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+>>>>>>> 441dfbd19d8af4ef8f69dd73af6534f08c5faeeb
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

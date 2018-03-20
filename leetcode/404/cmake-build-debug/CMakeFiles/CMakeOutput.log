@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 The system is: CYGWIN - 2.8.2(0.313/5/3) - x86_64
+=======
+The system is: CYGWIN - 2.10.0(0.325/5/3) - x86_64
+>>>>>>> 441dfbd19d8af4ef8f69dd73af6534f08c5faeeb
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
 Compiler: /usr/bin/cc 
 Build flags: 
@@ -10,7 +14,11 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
 
+<<<<<<< HEAD
 The C compiler identification is GNU, found in "/cygdrive/e/wangqingAlgorithm/leetcode/404/cmake-build-debug/CMakeFiles/3.9.4/CompilerIdC/a.exe"
+=======
+The C compiler identification is GNU, found in "/cygdrive/d/wangqingAlgorithm/leetcode/404/cmake-build-debug/CMakeFiles/3.9.6/CompilerIdC/a.exe"
+>>>>>>> 441dfbd19d8af4ef8f69dd73af6534f08c5faeeb
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/bin/c++.exe 
@@ -23,6 +31,7 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
 
+<<<<<<< HEAD
 The CXX compiler identification is GNU, found in "/cygdrive/e/wangqingAlgorithm/leetcode/404/cmake-build-debug/CMakeFiles/3.9.4/CompilerIdCXX/a.exe"
 
 Determining if the C compiler works passed with the following output:
@@ -62,10 +71,57 @@ LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-cygwin/5.3.0/:/usr/lib/gcc/x86_64-pc-cygwin/
 COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_87853.exe' '-mtune=generic' '-march=x86-64'
  /usr/lib/gcc/x86_64-pc-cygwin/5.3.0/collect2.exe -plugin /usr/lib/gcc/x86_64-pc-cygwin/5.3.0/cyglto_plugin.dll -plugin-opt=/usr/lib/gcc/x86_64-pc-cygwin/5.3.0/lto-wrapper.exe -plugin-opt=-fresolution=/tmp/cc2GrfSG.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lcygwin -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id -m i386pep --wrap _Znwm --wrap _Znam --wrap _ZdlPv --wrap _ZdaPv --wrap _ZnwmRKSt9nothrow_t --wrap _ZnamRKSt9nothrow_t --wrap _ZdlPvRKSt9nothrow_t --wrap _ZdaPvRKSt9nothrow_t -Bdynamic --dll-search-prefix=cyg --tsaware -o cmTC_87853.exe /usr/lib/../lib/crt0.o /usr/lib/gcc/x86_64-pc-cygwin/5.3.0/crtbegin.o -L/usr/lib/gcc/x86_64-pc-cygwin/5.3.0 -L/usr/lib/gcc/x86_64-pc-cygwin/5.3.0/../../../../x86_64-pc-cygwin/lib/../lib -L/usr/lib/../lib -L/lib/../lib -L/usr/lib/gcc/x86_64-pc-cygwin/5.3.0/../../../../x86_64-pc-cygwin/lib -L/usr/lib/w32api --enable-auto-import CMakeFiles/cmTC_87853.dir/CMakeCCompilerABI.c.o --out-implib libcmTC_87853.dll.a --major-image-version 0 --minor-image-version 0 -lgcc_s -lgcc -lcygwin -ladvapi32 -lshell32 -luser32 -lkernel32 -lgcc_s -lgcc /usr/lib/../lib/default-manifest.o /usr/lib/gcc/x86_64-pc-cygwin/5.3.0/crtend.o
 make[1]: Leaving directory '/cygdrive/e/wangqingAlgorithm/leetcode/404/cmake-build-debug/CMakeFiles/CMakeTmp'
+=======
+The CXX compiler identification is GNU, found in "/cygdrive/d/wangqingAlgorithm/leetcode/404/cmake-build-debug/CMakeFiles/3.9.6/CompilerIdCXX/a.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /cygdrive/d/wangqingAlgorithm/leetcode/404/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make.exe" "cmTC_0fc1c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0fc1c.dir/build.make CMakeFiles/cmTC_0fc1c.dir/build
+make[1]: Entering directory '/cygdrive/d/wangqingAlgorithm/leetcode/404/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0fc1c.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_0fc1c.dir/testCCompiler.c.o   -c /cygdrive/d/wangqingAlgorithm/leetcode/404/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_0fc1c.exe
+/cygdrive/c/Users/25851/.CLion2017.3/system/cygwin_cmake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_0fc1c.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,--enable-auto-import  CMakeFiles/cmTC_0fc1c.dir/testCCompiler.c.o  -o cmTC_0fc1c.exe -Wl,--out-implib,libcmTC_0fc1c.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+make[1]: Leaving directory '/cygdrive/d/wangqingAlgorithm/leetcode/404/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /cygdrive/d/wangqingAlgorithm/leetcode/404/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make.exe" "cmTC_ca999/fast"
+make: Warning: File 'Makefile' has modification time 0.9 s in the future
+/usr/bin/make -f CMakeFiles/cmTC_ca999.dir/build.make CMakeFiles/cmTC_ca999.dir/build
+make[1]: Entering directory '/cygdrive/d/wangqingAlgorithm/leetcode/404/cmake-build-debug/CMakeFiles/CMakeTmp'
+make[1]: Warning: File 'CMakeFiles/cmTC_ca999.dir/flags.make' has modification time 0.14 s in the future
+Building C object CMakeFiles/cmTC_ca999.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_ca999.dir/CMakeCCompilerABI.c.o   -c /cygdrive/c/Users/25851/.CLion2017.3/system/cygwin_cmake/share/cmake-3.9.6/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_ca999.exe
+/cygdrive/c/Users/25851/.CLion2017.3/system/cygwin_cmake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_ca999.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,--enable-auto-import -v CMakeFiles/cmTC_ca999.dir/CMakeCCompilerABI.c.o  -o cmTC_ca999.exe -Wl,--out-implib,libcmTC_ca999.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/lto-wrapper.exe
+Target: x86_64-pc-cygwin
+Configured with: /cygdrive/i/szsz/tmpp/gcc/gcc-6.4.0-5.x86_64/src/gcc-6.4.0/configure --srcdir=/cygdrive/i/szsz/tmpp/gcc/gcc-6.4.0-5.x86_64/src/gcc-6.4.0 --prefix=/usr --exec-prefix=/usr --localstatedir=/var --sysconfdir=/etc --docdir=/usr/share/doc/gcc --htmldir=/usr/share/doc/gcc/html -C --build=x86_64-pc-cygwin --host=x86_64-pc-cygwin --target=x86_64-pc-cygwin --without-libiconv-prefix --without-libintl-prefix --libexecdir=/usr/lib --enable-shared --enable-shared-libgcc --enable-static --enable-version-specific-runtime-libs --enable-bootstrap --enable-__cxa_atexit --with-dwarf2 --with-tune=generic --enable-languages=ada,c,c++,fortran,lto,objc,obj-c++ --enable-graphite --enable-threads=posix --enable-libatomic --enable-libcilkrts --enable-libgomp --enable-libitm --enable-libquadmath --enable-libquadmath-support --disable-libssp --enable-libada --disable-symvers --with-gnu-ld --with-gnu-as --with-cloog-include=/usr/include/cloog-isl --without-libiconv-prefix --without-libintl-prefix --with-system-zlib --enable-linker-build-id --with-default-libstdcxx-abi=gcc4-compatible
+Thread model: posix
+gcc version 6.4.0 (GCC) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/:/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/:/usr/lib/gcc/x86_64-pc-cygwin/:/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/:/usr/lib/gcc/x86_64-pc-cygwin/:/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../x86_64-pc-cygwin/bin/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/:/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../x86_64-pc-cygwin/lib/../lib/:/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../x86_64-pc-cygwin/lib/:/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ca999.exe' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/collect2.exe -plugin /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/cyglto_plugin.dll -plugin-opt=/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/lto-wrapper.exe -plugin-opt=-fresolution=/tmp/cc5dm7lD.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lcygwin -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id -m i386pep --wrap _Znwm --wrap _Znam --wrap _ZdlPv --wrap _ZdaPv --wrap _ZnwmRKSt9nothrow_t --wrap _ZnamRKSt9nothrow_t --wrap _ZdlPvRKSt9nothrow_t --wrap _ZdaPvRKSt9nothrow_t -Bdynamic --dll-search-prefix=cyg --tsaware -o cmTC_ca999.exe /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../lib/crt0.o /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/crtbegin.o -L/usr/lib/gcc/x86_64-pc-cygwin/6.4.0 -L/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../x86_64-pc-cygwin/lib/../lib -L/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../x86_64-pc-cygwin/lib -L/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../.. --enable-auto-import CMakeFiles/cmTC_ca999.dir/CMakeCCompilerABI.c.o --out-implib libcmTC_ca999.dll.a --major-image-version 0 --minor-image-version 0 -lgcc_s -lgcc -lcygwin -ladvapi32 -lshell32 -luser32 -lkernel32 -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../lib/default-manifest.o /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ca999.exe' '-mtune=generic' '-march=x86-64'
+make[1]: warning:  Clock skew detected.  Your build may be incomplete.
+make[1]: Leaving directory '/cygdrive/d/wangqingAlgorithm/leetcode/404/cmake-build-debug/CMakeFiles/CMakeTmp'
+make: warning:  Clock skew detected.  Your build may be incomplete.
+>>>>>>> 441dfbd19d8af4ef8f69dd73af6534f08c5faeeb
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+<<<<<<< HEAD
   ignore line: [Change Dir: /cygdrive/e/wangqingAlgorithm/leetcode/404/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
   ignore line: [Run Build Command:"/usr/bin/make.exe" "cmTC_87853/fast"]
@@ -92,6 +148,36 @@ Parsed C implicit link information from above output:
     arg [/usr/lib/gcc/x86_64-pc-cygwin/5.3.0/cyglto_plugin.dll] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-cygwin/5.3.0/lto-wrapper.exe] ==> ignore
     arg [-plugin-opt=-fresolution=/tmp/cc2GrfSG.res] ==> ignore
+=======
+  ignore line: [Change Dir: /cygdrive/d/wangqingAlgorithm/leetcode/404/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make.exe" "cmTC_ca999/fast"]
+  ignore line: [make: Warning: File 'Makefile' has modification time 0.9 s in the future]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_ca999.dir/build.make CMakeFiles/cmTC_ca999.dir/build]
+  ignore line: [make[1]: Entering directory '/cygdrive/d/wangqingAlgorithm/leetcode/404/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [make[1]: Warning: File 'CMakeFiles/cmTC_ca999.dir/flags.make' has modification time 0.14 s in the future]
+  ignore line: [Building C object CMakeFiles/cmTC_ca999.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_ca999.dir/CMakeCCompilerABI.c.o   -c /cygdrive/c/Users/25851/.CLion2017.3/system/cygwin_cmake/share/cmake-3.9.6/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_ca999.exe]
+  ignore line: [/cygdrive/c/Users/25851/.CLion2017.3/system/cygwin_cmake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_ca999.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc    -Wl,--enable-auto-import -v CMakeFiles/cmTC_ca999.dir/CMakeCCompilerABI.c.o  -o cmTC_ca999.exe -Wl,--out-implib,libcmTC_ca999.dll.a -Wl,--major-image-version,0,--minor-image-version,0 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/lto-wrapper.exe]
+  ignore line: [Target: x86_64-pc-cygwin]
+  ignore line: [Configured with: /cygdrive/i/szsz/tmpp/gcc/gcc-6.4.0-5.x86_64/src/gcc-6.4.0/configure --srcdir=/cygdrive/i/szsz/tmpp/gcc/gcc-6.4.0-5.x86_64/src/gcc-6.4.0 --prefix=/usr --exec-prefix=/usr --localstatedir=/var --sysconfdir=/etc --docdir=/usr/share/doc/gcc --htmldir=/usr/share/doc/gcc/html -C --build=x86_64-pc-cygwin --host=x86_64-pc-cygwin --target=x86_64-pc-cygwin --without-libiconv-prefix --without-libintl-prefix --libexecdir=/usr/lib --enable-shared --enable-shared-libgcc --enable-static --enable-version-specific-runtime-libs --enable-bootstrap --enable-__cxa_atexit --with-dwarf2 --with-tune=generic --enable-languages=ada,c,c++,fortran,lto,objc,obj-c++ --enable-graphite --enable-threads=posix --enable-libatomic --enable-libcilkrts --enable-libgomp --enable-libitm --enable-libquadmath --enable-libquadmath-support --disable-libssp --enable-libada --disable-symvers --with-gnu-ld --with-gnu-as --with-cloog-include=/usr/include/cloog-isl --without-libiconv-prefix --without-libintl-prefix --with-system-zlib --enable-linker-build-id --with-default-libstdcxx-abi=gcc4-compatible]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 6.4.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/:/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/:/usr/lib/gcc/x86_64-pc-cygwin/:/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/:/usr/lib/gcc/x86_64-pc-cygwin/:/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../x86_64-pc-cygwin/bin/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/:/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../x86_64-pc-cygwin/lib/../lib/:/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../x86_64-pc-cygwin/lib/:/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ca999.exe' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/collect2.exe -plugin /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/cyglto_plugin.dll -plugin-opt=/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/lto-wrapper.exe -plugin-opt=-fresolution=/tmp/cc5dm7lD.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lcygwin -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id -m i386pep --wrap _Znwm --wrap _Znam --wrap _ZdlPv --wrap _ZdaPv --wrap _ZnwmRKSt9nothrow_t --wrap _ZnamRKSt9nothrow_t --wrap _ZdlPvRKSt9nothrow_t --wrap _ZdaPvRKSt9nothrow_t -Bdynamic --dll-search-prefix=cyg --tsaware -o cmTC_ca999.exe /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../lib/crt0.o /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/crtbegin.o -L/usr/lib/gcc/x86_64-pc-cygwin/6.4.0 -L/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../x86_64-pc-cygwin/lib/../lib -L/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../x86_64-pc-cygwin/lib -L/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../.. --enable-auto-import CMakeFiles/cmTC_ca999.dir/CMakeCCompilerABI.c.o --out-implib libcmTC_ca999.dll.a --major-image-version 0 --minor-image-version 0 -lgcc_s -lgcc -lcygwin -ladvapi32 -lshell32 -luser32 -lkernel32 -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../lib/default-manifest.o /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/crtend.o]
+    arg [/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/collect2.exe] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/cyglto_plugin.dll] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/lto-wrapper.exe] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc5dm7lD.res] ==> ignore
+>>>>>>> 441dfbd19d8af4ef8f69dd73af6534f08c5faeeb
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lcygwin] ==> ignore
@@ -124,6 +210,7 @@ Parsed C implicit link information from above output:
     arg [--dll-search-prefix=cyg] ==> ignore
     arg [--tsaware] ==> ignore
     arg [-o] ==> ignore
+<<<<<<< HEAD
     arg [cmTC_87853.exe] ==> ignore
     arg [/usr/lib/../lib/crt0.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-pc-cygwin/5.3.0/crtbegin.o] ==> ignore
@@ -137,6 +224,22 @@ Parsed C implicit link information from above output:
     arg [CMakeFiles/cmTC_87853.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [--out-implib] ==> ignore
     arg [libcmTC_87853.dll.a] ==> ignore
+=======
+    arg [cmTC_ca999.exe] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../lib/crt0.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-pc-cygwin/6.4.0] ==> dir [/usr/lib/gcc/x86_64-pc-cygwin/6.4.0]
+    arg [-L/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../x86_64-pc-cygwin/lib/../lib] ==> dir [/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../x86_64-pc-cygwin/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../lib]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../x86_64-pc-cygwin/lib] ==> dir [/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../x86_64-pc-cygwin/lib]
+    arg [-L/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../..]
+    arg [--enable-auto-import] ==> ignore
+    arg [CMakeFiles/cmTC_ca999.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [--out-implib] ==> ignore
+    arg [libcmTC_ca999.dll.a] ==> ignore
+>>>>>>> 441dfbd19d8af4ef8f69dd73af6534f08c5faeeb
     arg [--major-image-version] ==> ignore
     arg [0] ==> ignore
     arg [--minor-image-version] ==> ignore
@@ -150,6 +253,7 @@ Parsed C implicit link information from above output:
     arg [-lkernel32] ==> lib [kernel32]
     arg [-lgcc_s] ==> lib [gcc_s]
     arg [-lgcc] ==> lib [gcc]
+<<<<<<< HEAD
     arg [/usr/lib/../lib/default-manifest.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-pc-cygwin/5.3.0/crtend.o] ==> ignore
   collapse library dir [/usr/lib/gcc/x86_64-pc-cygwin/5.3.0] ==> [/usr/lib/gcc/x86_64-pc-cygwin/5.3.0]
@@ -160,12 +264,26 @@ Parsed C implicit link information from above output:
   collapse library dir [/usr/lib/w32api] ==> [/usr/lib/w32api]
   implicit libs: [gcc_s;gcc;cygwin;advapi32;shell32;user32;kernel32;gcc_s;gcc]
   implicit dirs: [/usr/lib/gcc/x86_64-pc-cygwin/5.3.0;/usr/x86_64-pc-cygwin/lib;/usr/lib;/lib;/usr/lib/w32api]
+=======
+    arg [/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../lib/default-manifest.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/crtend.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-pc-cygwin/6.4.0] ==> [/usr/lib/gcc/x86_64-pc-cygwin/6.4.0]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../x86_64-pc-cygwin/lib/../lib] ==> [/usr/x86_64-pc-cygwin/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../x86_64-pc-cygwin/lib] ==> [/usr/x86_64-pc-cygwin/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../..] ==> [/usr/lib]
+  implicit libs: [gcc_s;gcc;cygwin;advapi32;shell32;user32;kernel32;gcc_s;gcc]
+  implicit dirs: [/usr/lib/gcc/x86_64-pc-cygwin/6.4.0;/usr/x86_64-pc-cygwin/lib;/usr/lib;/lib]
+>>>>>>> 441dfbd19d8af4ef8f69dd73af6534f08c5faeeb
   implicit fwks: []
 
 
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
+<<<<<<< HEAD
 Change Dir: /cygdrive/e/wangqingAlgorithm/leetcode/404/cmake-build-debug/CMakeFiles/CMakeTmp
 
 Run Build Command:"/usr/bin/make.exe" "cmTC_74fc5/fast"
@@ -177,6 +295,23 @@ Linking C executable cmTC_74fc5.exe
 /cygdrive/c/Users/hasee/.CLion2017.3/system/cygwin_cmake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_74fc5.dir/link.txt --verbose=1
 /usr/bin/cc    -Wl,--enable-auto-import  CMakeFiles/cmTC_74fc5.dir/feature_tests.c.o  -o cmTC_74fc5.exe -Wl,--out-implib,libcmTC_74fc5.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
 make[1]: Leaving directory '/cygdrive/e/wangqingAlgorithm/leetcode/404/cmake-build-debug/CMakeFiles/CMakeTmp'
+=======
+Change Dir: /cygdrive/d/wangqingAlgorithm/leetcode/404/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make.exe" "cmTC_0457a/fast"
+make: Warning: File 'Makefile' has modification time 0.6 s in the future
+/usr/bin/make -f CMakeFiles/cmTC_0457a.dir/build.make CMakeFiles/cmTC_0457a.dir/build
+make[1]: Entering directory '/cygdrive/d/wangqingAlgorithm/leetcode/404/cmake-build-debug/CMakeFiles/CMakeTmp'
+make[1]: Warning: File 'CMakeFiles/cmTC_0457a.dir/flags.make' has modification time 0.19 s in the future
+Building C object CMakeFiles/cmTC_0457a.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_0457a.dir/feature_tests.c.o   -c /cygdrive/d/wangqingAlgorithm/leetcode/404/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_0457a.exe
+/cygdrive/c/Users/25851/.CLion2017.3/system/cygwin_cmake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_0457a.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,--enable-auto-import  CMakeFiles/cmTC_0457a.dir/feature_tests.c.o  -o cmTC_0457a.exe -Wl,--out-implib,libcmTC_0457a.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+make[1]: warning:  Clock skew detected.  Your build may be incomplete.
+make[1]: Leaving directory '/cygdrive/d/wangqingAlgorithm/leetcode/404/cmake-build-debug/CMakeFiles/CMakeTmp'
+make: warning:  Clock skew detected.  Your build may be incomplete.
+>>>>>>> 441dfbd19d8af4ef8f69dd73af6534f08c5faeeb
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -186,6 +321,7 @@ make[1]: Leaving directory '/cygdrive/e/wangqingAlgorithm/leetcode/404/cmake-bui
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
+<<<<<<< HEAD
 Change Dir: /cygdrive/e/wangqingAlgorithm/leetcode/404/cmake-build-debug/CMakeFiles/CMakeTmp
 
 Run Build Command:"/usr/bin/make.exe" "cmTC_12a1d/fast"
@@ -197,6 +333,19 @@ Linking C executable cmTC_12a1d.exe
 /cygdrive/c/Users/hasee/.CLion2017.3/system/cygwin_cmake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_12a1d.dir/link.txt --verbose=1
 /usr/bin/cc    -Wl,--enable-auto-import  CMakeFiles/cmTC_12a1d.dir/feature_tests.c.o  -o cmTC_12a1d.exe -Wl,--out-implib,libcmTC_12a1d.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
 make[1]: Leaving directory '/cygdrive/e/wangqingAlgorithm/leetcode/404/cmake-build-debug/CMakeFiles/CMakeTmp'
+=======
+Change Dir: /cygdrive/d/wangqingAlgorithm/leetcode/404/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make.exe" "cmTC_5480e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5480e.dir/build.make CMakeFiles/cmTC_5480e.dir/build
+make[1]: Entering directory '/cygdrive/d/wangqingAlgorithm/leetcode/404/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5480e.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_5480e.dir/feature_tests.c.o   -c /cygdrive/d/wangqingAlgorithm/leetcode/404/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_5480e.exe
+/cygdrive/c/Users/25851/.CLion2017.3/system/cygwin_cmake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_5480e.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,--enable-auto-import  CMakeFiles/cmTC_5480e.dir/feature_tests.c.o  -o cmTC_5480e.exe -Wl,--out-implib,libcmTC_5480e.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+make[1]: Leaving directory '/cygdrive/d/wangqingAlgorithm/leetcode/404/cmake-build-debug/CMakeFiles/CMakeTmp'
+>>>>>>> 441dfbd19d8af4ef8f69dd73af6534f08c5faeeb
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -206,6 +355,7 @@ make[1]: Leaving directory '/cygdrive/e/wangqingAlgorithm/leetcode/404/cmake-bui
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
+<<<<<<< HEAD
 Change Dir: /cygdrive/e/wangqingAlgorithm/leetcode/404/cmake-build-debug/CMakeFiles/CMakeTmp
 
 Run Build Command:"/usr/bin/make.exe" "cmTC_abca9/fast"
@@ -217,6 +367,19 @@ Linking C executable cmTC_abca9.exe
 /cygdrive/c/Users/hasee/.CLion2017.3/system/cygwin_cmake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_abca9.dir/link.txt --verbose=1
 /usr/bin/cc    -Wl,--enable-auto-import  CMakeFiles/cmTC_abca9.dir/feature_tests.c.o  -o cmTC_abca9.exe -Wl,--out-implib,libcmTC_abca9.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
 make[1]: Leaving directory '/cygdrive/e/wangqingAlgorithm/leetcode/404/cmake-build-debug/CMakeFiles/CMakeTmp'
+=======
+Change Dir: /cygdrive/d/wangqingAlgorithm/leetcode/404/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make.exe" "cmTC_a979f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a979f.dir/build.make CMakeFiles/cmTC_a979f.dir/build
+make[1]: Entering directory '/cygdrive/d/wangqingAlgorithm/leetcode/404/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a979f.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_a979f.dir/feature_tests.c.o   -c /cygdrive/d/wangqingAlgorithm/leetcode/404/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_a979f.exe
+/cygdrive/c/Users/25851/.CLion2017.3/system/cygwin_cmake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_a979f.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,--enable-auto-import  CMakeFiles/cmTC_a979f.dir/feature_tests.c.o  -o cmTC_a979f.exe -Wl,--out-implib,libcmTC_a979f.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+make[1]: Leaving directory '/cygdrive/d/wangqingAlgorithm/leetcode/404/cmake-build-debug/CMakeFiles/CMakeTmp'
+>>>>>>> 441dfbd19d8af4ef8f69dd73af6534f08c5faeeb
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -224,6 +387,7 @@ make[1]: Leaving directory '/cygdrive/e/wangqingAlgorithm/leetcode/404/cmake-bui
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
+<<<<<<< HEAD
 Change Dir: /cygdrive/e/wangqingAlgorithm/leetcode/404/cmake-build-debug/CMakeFiles/CMakeTmp
 
 Run Build Command:"/usr/bin/make.exe" "cmTC_e23ba/fast"
@@ -260,10 +424,56 @@ LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-cygwin/5.3.0/:/usr/lib/gcc/x86_64-pc-cygwin/
 COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_556d3.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
  /usr/lib/gcc/x86_64-pc-cygwin/5.3.0/collect2.exe -plugin /usr/lib/gcc/x86_64-pc-cygwin/5.3.0/cyglto_plugin.dll -plugin-opt=/usr/lib/gcc/x86_64-pc-cygwin/5.3.0/lto-wrapper.exe -plugin-opt=-fresolution=/tmp/ccQP1P0e.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lcygwin -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id -m i386pep --wrap _Znwm --wrap _Znam --wrap _ZdlPv --wrap _ZdaPv --wrap _ZnwmRKSt9nothrow_t --wrap _ZnamRKSt9nothrow_t --wrap _ZdlPvRKSt9nothrow_t --wrap _ZdaPvRKSt9nothrow_t -Bdynamic --dll-search-prefix=cyg --tsaware -o cmTC_556d3.exe /usr/lib/../lib/crt0.o /usr/lib/gcc/x86_64-pc-cygwin/5.3.0/crtbegin.o -L/usr/lib/gcc/x86_64-pc-cygwin/5.3.0 -L/usr/lib/gcc/x86_64-pc-cygwin/5.3.0/../../../../x86_64-pc-cygwin/lib/../lib -L/usr/lib/../lib -L/lib/../lib -L/usr/lib/gcc/x86_64-pc-cygwin/5.3.0/../../../../x86_64-pc-cygwin/lib -L/usr/lib/w32api --enable-auto-import CMakeFiles/cmTC_556d3.dir/CMakeCXXCompilerABI.cpp.o --out-implib libcmTC_556d3.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lgcc_s -lgcc -lcygwin -ladvapi32 -lshell32 -luser32 -lkernel32 -lgcc_s -lgcc /usr/lib/../lib/default-manifest.o /usr/lib/gcc/x86_64-pc-cygwin/5.3.0/crtend.o
 make[1]: Leaving directory '/cygdrive/e/wangqingAlgorithm/leetcode/404/cmake-build-debug/CMakeFiles/CMakeTmp'
+=======
+Change Dir: /cygdrive/d/wangqingAlgorithm/leetcode/404/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make.exe" "cmTC_51c72/fast"
+make: Warning: File 'Makefile' has modification time 0.8 s in the future
+/usr/bin/make -f CMakeFiles/cmTC_51c72.dir/build.make CMakeFiles/cmTC_51c72.dir/build
+make[1]: Entering directory '/cygdrive/d/wangqingAlgorithm/leetcode/404/cmake-build-debug/CMakeFiles/CMakeTmp'
+make[1]: Warning: File 'CMakeFiles/cmTC_51c72.dir/flags.make' has modification time 0.23 s in the future
+Building CXX object CMakeFiles/cmTC_51c72.dir/testCXXCompiler.cxx.o
+/usr/bin/c++.exe     -o CMakeFiles/cmTC_51c72.dir/testCXXCompiler.cxx.o -c /cygdrive/d/wangqingAlgorithm/leetcode/404/cmake-build-debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_51c72.exe
+/cygdrive/c/Users/25851/.CLion2017.3/system/cygwin_cmake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_51c72.dir/link.txt --verbose=1
+/usr/bin/c++.exe    -Wl,--enable-auto-import  CMakeFiles/cmTC_51c72.dir/testCXXCompiler.cxx.o  -o cmTC_51c72.exe -Wl,--out-implib,libcmTC_51c72.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+make[1]: warning:  Clock skew detected.  Your build may be incomplete.
+make[1]: Leaving directory '/cygdrive/d/wangqingAlgorithm/leetcode/404/cmake-build-debug/CMakeFiles/CMakeTmp'
+make: warning:  Clock skew detected.  Your build may be incomplete.
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /cygdrive/d/wangqingAlgorithm/leetcode/404/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make.exe" "cmTC_7662b/fast"
+make: Warning: File 'Makefile' has modification time 0.34 s in the future
+/usr/bin/make -f CMakeFiles/cmTC_7662b.dir/build.make CMakeFiles/cmTC_7662b.dir/build
+make[1]: Entering directory '/cygdrive/d/wangqingAlgorithm/leetcode/404/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7662b.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++.exe     -o CMakeFiles/cmTC_7662b.dir/CMakeCXXCompilerABI.cpp.o -c /cygdrive/c/Users/25851/.CLion2017.3/system/cygwin_cmake/share/cmake-3.9.6/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_7662b.exe
+/cygdrive/c/Users/25851/.CLion2017.3/system/cygwin_cmake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_7662b.dir/link.txt --verbose=1
+/usr/bin/c++.exe    -Wl,--enable-auto-import -v CMakeFiles/cmTC_7662b.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_7662b.exe -Wl,--out-implib,libcmTC_7662b.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/lto-wrapper.exe
+Target: x86_64-pc-cygwin
+Configured with: /cygdrive/i/szsz/tmpp/gcc/gcc-6.4.0-5.x86_64/src/gcc-6.4.0/configure --srcdir=/cygdrive/i/szsz/tmpp/gcc/gcc-6.4.0-5.x86_64/src/gcc-6.4.0 --prefix=/usr --exec-prefix=/usr --localstatedir=/var --sysconfdir=/etc --docdir=/usr/share/doc/gcc --htmldir=/usr/share/doc/gcc/html -C --build=x86_64-pc-cygwin --host=x86_64-pc-cygwin --target=x86_64-pc-cygwin --without-libiconv-prefix --without-libintl-prefix --libexecdir=/usr/lib --enable-shared --enable-shared-libgcc --enable-static --enable-version-specific-runtime-libs --enable-bootstrap --enable-__cxa_atexit --with-dwarf2 --with-tune=generic --enable-languages=ada,c,c++,fortran,lto,objc,obj-c++ --enable-graphite --enable-threads=posix --enable-libatomic --enable-libcilkrts --enable-libgomp --enable-libitm --enable-libquadmath --enable-libquadmath-support --disable-libssp --enable-libada --disable-symvers --with-gnu-ld --with-gnu-as --with-cloog-include=/usr/include/cloog-isl --without-libiconv-prefix --without-libintl-prefix --with-system-zlib --enable-linker-build-id --with-default-libstdcxx-abi=gcc4-compatible
+Thread model: posix
+gcc version 6.4.0 (GCC) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/:/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/:/usr/lib/gcc/x86_64-pc-cygwin/:/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/:/usr/lib/gcc/x86_64-pc-cygwin/:/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../x86_64-pc-cygwin/bin/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/:/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../x86_64-pc-cygwin/lib/../lib/:/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../x86_64-pc-cygwin/lib/:/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7662b.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/collect2.exe -plugin /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/cyglto_plugin.dll -plugin-opt=/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/lto-wrapper.exe -plugin-opt=-fresolution=/tmp/ccNC3ocI.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lcygwin -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id -m i386pep --wrap _Znwm --wrap _Znam --wrap _ZdlPv --wrap _ZdaPv --wrap _ZnwmRKSt9nothrow_t --wrap _ZnamRKSt9nothrow_t --wrap _ZdlPvRKSt9nothrow_t --wrap _ZdaPvRKSt9nothrow_t -Bdynamic --dll-search-prefix=cyg --tsaware -o cmTC_7662b.exe /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../lib/crt0.o /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/crtbegin.o -L/usr/lib/gcc/x86_64-pc-cygwin/6.4.0 -L/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../x86_64-pc-cygwin/lib/../lib -L/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../x86_64-pc-cygwin/lib -L/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../.. --enable-auto-import CMakeFiles/cmTC_7662b.dir/CMakeCXXCompilerABI.cpp.o --out-implib libcmTC_7662b.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lgcc_s -lgcc -lcygwin -ladvapi32 -lshell32 -luser32 -lkernel32 -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../lib/default-manifest.o /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7662b.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/cygdrive/d/wangqingAlgorithm/leetcode/404/cmake-build-debug/CMakeFiles/CMakeTmp'
+make: warning:  Clock skew detected.  Your build may be incomplete.
+>>>>>>> 441dfbd19d8af4ef8f69dd73af6534f08c5faeeb
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+<<<<<<< HEAD
   ignore line: [Change Dir: /cygdrive/e/wangqingAlgorithm/leetcode/404/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
   ignore line: [Run Build Command:"/usr/bin/make.exe" "cmTC_556d3/fast"]
@@ -290,6 +500,35 @@ Parsed CXX implicit link information from above output:
     arg [/usr/lib/gcc/x86_64-pc-cygwin/5.3.0/cyglto_plugin.dll] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-cygwin/5.3.0/lto-wrapper.exe] ==> ignore
     arg [-plugin-opt=-fresolution=/tmp/ccQP1P0e.res] ==> ignore
+=======
+  ignore line: [Change Dir: /cygdrive/d/wangqingAlgorithm/leetcode/404/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make.exe" "cmTC_7662b/fast"]
+  ignore line: [make: Warning: File 'Makefile' has modification time 0.34 s in the future]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_7662b.dir/build.make CMakeFiles/cmTC_7662b.dir/build]
+  ignore line: [make[1]: Entering directory '/cygdrive/d/wangqingAlgorithm/leetcode/404/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_7662b.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++.exe     -o CMakeFiles/cmTC_7662b.dir/CMakeCXXCompilerABI.cpp.o -c /cygdrive/c/Users/25851/.CLion2017.3/system/cygwin_cmake/share/cmake-3.9.6/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_7662b.exe]
+  ignore line: [/cygdrive/c/Users/25851/.CLion2017.3/system/cygwin_cmake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_7662b.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++.exe    -Wl,--enable-auto-import -v CMakeFiles/cmTC_7662b.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_7662b.exe -Wl,--out-implib,libcmTC_7662b.dll.a -Wl,--major-image-version,0,--minor-image-version,0 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/lto-wrapper.exe]
+  ignore line: [Target: x86_64-pc-cygwin]
+  ignore line: [Configured with: /cygdrive/i/szsz/tmpp/gcc/gcc-6.4.0-5.x86_64/src/gcc-6.4.0/configure --srcdir=/cygdrive/i/szsz/tmpp/gcc/gcc-6.4.0-5.x86_64/src/gcc-6.4.0 --prefix=/usr --exec-prefix=/usr --localstatedir=/var --sysconfdir=/etc --docdir=/usr/share/doc/gcc --htmldir=/usr/share/doc/gcc/html -C --build=x86_64-pc-cygwin --host=x86_64-pc-cygwin --target=x86_64-pc-cygwin --without-libiconv-prefix --without-libintl-prefix --libexecdir=/usr/lib --enable-shared --enable-shared-libgcc --enable-static --enable-version-specific-runtime-libs --enable-bootstrap --enable-__cxa_atexit --with-dwarf2 --with-tune=generic --enable-languages=ada,c,c++,fortran,lto,objc,obj-c++ --enable-graphite --enable-threads=posix --enable-libatomic --enable-libcilkrts --enable-libgomp --enable-libitm --enable-libquadmath --enable-libquadmath-support --disable-libssp --enable-libada --disable-symvers --with-gnu-ld --with-gnu-as --with-cloog-include=/usr/include/cloog-isl --without-libiconv-prefix --without-libintl-prefix --with-system-zlib --enable-linker-build-id --with-default-libstdcxx-abi=gcc4-compatible]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 6.4.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/:/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/:/usr/lib/gcc/x86_64-pc-cygwin/:/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/:/usr/lib/gcc/x86_64-pc-cygwin/:/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../x86_64-pc-cygwin/bin/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/:/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../x86_64-pc-cygwin/lib/../lib/:/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../x86_64-pc-cygwin/lib/:/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7662b.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/collect2.exe -plugin /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/cyglto_plugin.dll -plugin-opt=/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/lto-wrapper.exe -plugin-opt=-fresolution=/tmp/ccNC3ocI.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lcygwin -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id -m i386pep --wrap _Znwm --wrap _Znam --wrap _ZdlPv --wrap _ZdaPv --wrap _ZnwmRKSt9nothrow_t --wrap _ZnamRKSt9nothrow_t --wrap _ZdlPvRKSt9nothrow_t --wrap _ZdaPvRKSt9nothrow_t -Bdynamic --dll-search-prefix=cyg --tsaware -o cmTC_7662b.exe /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../lib/crt0.o /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/crtbegin.o -L/usr/lib/gcc/x86_64-pc-cygwin/6.4.0 -L/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../x86_64-pc-cygwin/lib/../lib -L/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../x86_64-pc-cygwin/lib -L/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../.. --enable-auto-import CMakeFiles/cmTC_7662b.dir/CMakeCXXCompilerABI.cpp.o --out-implib libcmTC_7662b.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lgcc_s -lgcc -lcygwin -ladvapi32 -lshell32 -luser32 -lkernel32 -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../lib/default-manifest.o /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/crtend.o]
+    arg [/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/collect2.exe] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/cyglto_plugin.dll] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/lto-wrapper.exe] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccNC3ocI.res] ==> ignore
+>>>>>>> 441dfbd19d8af4ef8f69dd73af6534f08c5faeeb
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lcygwin] ==> ignore
@@ -322,6 +561,7 @@ Parsed CXX implicit link information from above output:
     arg [--dll-search-prefix=cyg] ==> ignore
     arg [--tsaware] ==> ignore
     arg [-o] ==> ignore
+<<<<<<< HEAD
     arg [cmTC_556d3.exe] ==> ignore
     arg [/usr/lib/../lib/crt0.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-pc-cygwin/5.3.0/crtbegin.o] ==> ignore
@@ -335,6 +575,22 @@ Parsed CXX implicit link information from above output:
     arg [CMakeFiles/cmTC_556d3.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [--out-implib] ==> ignore
     arg [libcmTC_556d3.dll.a] ==> ignore
+=======
+    arg [cmTC_7662b.exe] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../lib/crt0.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-pc-cygwin/6.4.0] ==> dir [/usr/lib/gcc/x86_64-pc-cygwin/6.4.0]
+    arg [-L/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../x86_64-pc-cygwin/lib/../lib] ==> dir [/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../x86_64-pc-cygwin/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../lib]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../x86_64-pc-cygwin/lib] ==> dir [/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../x86_64-pc-cygwin/lib]
+    arg [-L/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../..]
+    arg [--enable-auto-import] ==> ignore
+    arg [CMakeFiles/cmTC_7662b.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [--out-implib] ==> ignore
+    arg [libcmTC_7662b.dll.a] ==> ignore
+>>>>>>> 441dfbd19d8af4ef8f69dd73af6534f08c5faeeb
     arg [--major-image-version] ==> ignore
     arg [0] ==> ignore
     arg [--minor-image-version] ==> ignore
@@ -349,6 +605,7 @@ Parsed CXX implicit link information from above output:
     arg [-lkernel32] ==> lib [kernel32]
     arg [-lgcc_s] ==> lib [gcc_s]
     arg [-lgcc] ==> lib [gcc]
+<<<<<<< HEAD
     arg [/usr/lib/../lib/default-manifest.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-pc-cygwin/5.3.0/crtend.o] ==> ignore
   collapse library dir [/usr/lib/gcc/x86_64-pc-cygwin/5.3.0] ==> [/usr/lib/gcc/x86_64-pc-cygwin/5.3.0]
@@ -359,12 +616,26 @@ Parsed CXX implicit link information from above output:
   collapse library dir [/usr/lib/w32api] ==> [/usr/lib/w32api]
   implicit libs: [stdc++;gcc_s;gcc;cygwin;advapi32;shell32;user32;kernel32;gcc_s;gcc]
   implicit dirs: [/usr/lib/gcc/x86_64-pc-cygwin/5.3.0;/usr/x86_64-pc-cygwin/lib;/usr/lib;/lib;/usr/lib/w32api]
+=======
+    arg [/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../lib/default-manifest.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/crtend.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-pc-cygwin/6.4.0] ==> [/usr/lib/gcc/x86_64-pc-cygwin/6.4.0]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../x86_64-pc-cygwin/lib/../lib] ==> [/usr/x86_64-pc-cygwin/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../x86_64-pc-cygwin/lib] ==> [/usr/x86_64-pc-cygwin/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;gcc_s;gcc;cygwin;advapi32;shell32;user32;kernel32;gcc_s;gcc]
+  implicit dirs: [/usr/lib/gcc/x86_64-pc-cygwin/6.4.0;/usr/x86_64-pc-cygwin/lib;/usr/lib;/lib]
+>>>>>>> 441dfbd19d8af4ef8f69dd73af6534f08c5faeeb
   implicit fwks: []
 
 
 
 
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
+<<<<<<< HEAD
 Change Dir: /cygdrive/e/wangqingAlgorithm/leetcode/404/cmake-build-debug/CMakeFiles/CMakeTmp
 
 Run Build Command:"/usr/bin/make.exe" "cmTC_07279/fast"
@@ -376,6 +647,19 @@ Linking CXX executable cmTC_07279.exe
 /cygdrive/c/Users/hasee/.CLion2017.3/system/cygwin_cmake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_07279.dir/link.txt --verbose=1
 /usr/bin/c++.exe    -Wl,--enable-auto-import  CMakeFiles/cmTC_07279.dir/feature_tests.cxx.o  -o cmTC_07279.exe -Wl,--out-implib,libcmTC_07279.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
 make[1]: Leaving directory '/cygdrive/e/wangqingAlgorithm/leetcode/404/cmake-build-debug/CMakeFiles/CMakeTmp'
+=======
+Change Dir: /cygdrive/d/wangqingAlgorithm/leetcode/404/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make.exe" "cmTC_74347/fast"
+/usr/bin/make -f CMakeFiles/cmTC_74347.dir/build.make CMakeFiles/cmTC_74347.dir/build
+make[1]: Entering directory '/cygdrive/d/wangqingAlgorithm/leetcode/404/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_74347.dir/feature_tests.cxx.o
+/usr/bin/c++.exe    -std=c++1z -o CMakeFiles/cmTC_74347.dir/feature_tests.cxx.o -c /cygdrive/d/wangqingAlgorithm/leetcode/404/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_74347.exe
+/cygdrive/c/Users/25851/.CLion2017.3/system/cygwin_cmake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_74347.dir/link.txt --verbose=1
+/usr/bin/c++.exe    -Wl,--enable-auto-import  CMakeFiles/cmTC_74347.dir/feature_tests.cxx.o  -o cmTC_74347.exe -Wl,--out-implib,libcmTC_74347.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+make[1]: Leaving directory '/cygdrive/d/wangqingAlgorithm/leetcode/404/cmake-build-debug/CMakeFiles/CMakeTmp'
+>>>>>>> 441dfbd19d8af4ef8f69dd73af6534f08c5faeeb
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -438,6 +722,7 @@ make[1]: Leaving directory '/cygdrive/e/wangqingAlgorithm/leetcode/404/cmake-bui
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
+<<<<<<< HEAD
 Change Dir: /cygdrive/e/wangqingAlgorithm/leetcode/404/cmake-build-debug/CMakeFiles/CMakeTmp
 
 Run Build Command:"/usr/bin/make.exe" "cmTC_d8ac1/fast"
@@ -449,6 +734,21 @@ Linking CXX executable cmTC_d8ac1.exe
 /cygdrive/c/Users/hasee/.CLion2017.3/system/cygwin_cmake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_d8ac1.dir/link.txt --verbose=1
 /usr/bin/c++.exe    -Wl,--enable-auto-import  CMakeFiles/cmTC_d8ac1.dir/feature_tests.cxx.o  -o cmTC_d8ac1.exe -Wl,--out-implib,libcmTC_d8ac1.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
 make[1]: Leaving directory '/cygdrive/e/wangqingAlgorithm/leetcode/404/cmake-build-debug/CMakeFiles/CMakeTmp'
+=======
+Change Dir: /cygdrive/d/wangqingAlgorithm/leetcode/404/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make.exe" "cmTC_3197b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3197b.dir/build.make CMakeFiles/cmTC_3197b.dir/build
+make[1]: Entering directory '/cygdrive/d/wangqingAlgorithm/leetcode/404/cmake-build-debug/CMakeFiles/CMakeTmp'
+make[1]: Warning: File 'CMakeFiles/cmTC_3197b.dir/progress.make' has modification time 0.14 s in the future
+Building CXX object CMakeFiles/cmTC_3197b.dir/feature_tests.cxx.o
+/usr/bin/c++.exe    -std=c++14 -o CMakeFiles/cmTC_3197b.dir/feature_tests.cxx.o -c /cygdrive/d/wangqingAlgorithm/leetcode/404/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_3197b.exe
+/cygdrive/c/Users/25851/.CLion2017.3/system/cygwin_cmake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_3197b.dir/link.txt --verbose=1
+/usr/bin/c++.exe    -Wl,--enable-auto-import  CMakeFiles/cmTC_3197b.dir/feature_tests.cxx.o  -o cmTC_3197b.exe -Wl,--out-implib,libcmTC_3197b.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+make[1]: warning:  Clock skew detected.  Your build may be incomplete.
+make[1]: Leaving directory '/cygdrive/d/wangqingAlgorithm/leetcode/404/cmake-build-debug/CMakeFiles/CMakeTmp'
+>>>>>>> 441dfbd19d8af4ef8f69dd73af6534f08c5faeeb
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -511,6 +811,7 @@ make[1]: Leaving directory '/cygdrive/e/wangqingAlgorithm/leetcode/404/cmake-bui
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
+<<<<<<< HEAD
 Change Dir: /cygdrive/e/wangqingAlgorithm/leetcode/404/cmake-build-debug/CMakeFiles/CMakeTmp
 
 Run Build Command:"/usr/bin/make.exe" "cmTC_767d2/fast"
@@ -522,6 +823,19 @@ Linking CXX executable cmTC_767d2.exe
 /cygdrive/c/Users/hasee/.CLion2017.3/system/cygwin_cmake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_767d2.dir/link.txt --verbose=1
 /usr/bin/c++.exe    -Wl,--enable-auto-import  CMakeFiles/cmTC_767d2.dir/feature_tests.cxx.o  -o cmTC_767d2.exe -Wl,--out-implib,libcmTC_767d2.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
 make[1]: Leaving directory '/cygdrive/e/wangqingAlgorithm/leetcode/404/cmake-build-debug/CMakeFiles/CMakeTmp'
+=======
+Change Dir: /cygdrive/d/wangqingAlgorithm/leetcode/404/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make.exe" "cmTC_4b7c7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4b7c7.dir/build.make CMakeFiles/cmTC_4b7c7.dir/build
+make[1]: Entering directory '/cygdrive/d/wangqingAlgorithm/leetcode/404/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4b7c7.dir/feature_tests.cxx.o
+/usr/bin/c++.exe    -std=c++11 -o CMakeFiles/cmTC_4b7c7.dir/feature_tests.cxx.o -c /cygdrive/d/wangqingAlgorithm/leetcode/404/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_4b7c7.exe
+/cygdrive/c/Users/25851/.CLion2017.3/system/cygwin_cmake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_4b7c7.dir/link.txt --verbose=1
+/usr/bin/c++.exe    -Wl,--enable-auto-import  CMakeFiles/cmTC_4b7c7.dir/feature_tests.cxx.o  -o cmTC_4b7c7.exe -Wl,--out-implib,libcmTC_4b7c7.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+make[1]: Leaving directory '/cygdrive/d/wangqingAlgorithm/leetcode/404/cmake-build-debug/CMakeFiles/CMakeTmp'
+>>>>>>> 441dfbd19d8af4ef8f69dd73af6534f08c5faeeb
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -584,6 +898,7 @@ make[1]: Leaving directory '/cygdrive/e/wangqingAlgorithm/leetcode/404/cmake-bui
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
+<<<<<<< HEAD
 Change Dir: /cygdrive/e/wangqingAlgorithm/leetcode/404/cmake-build-debug/CMakeFiles/CMakeTmp
 
 Run Build Command:"/usr/bin/make.exe" "cmTC_4d124/fast"
@@ -595,6 +910,21 @@ Linking CXX executable cmTC_4d124.exe
 /cygdrive/c/Users/hasee/.CLion2017.3/system/cygwin_cmake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_4d124.dir/link.txt --verbose=1
 /usr/bin/c++.exe    -Wl,--enable-auto-import  CMakeFiles/cmTC_4d124.dir/feature_tests.cxx.o  -o cmTC_4d124.exe -Wl,--out-implib,libcmTC_4d124.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
 make[1]: Leaving directory '/cygdrive/e/wangqingAlgorithm/leetcode/404/cmake-build-debug/CMakeFiles/CMakeTmp'
+=======
+Change Dir: /cygdrive/d/wangqingAlgorithm/leetcode/404/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make.exe" "cmTC_c26ae/fast"
+make: Warning: File 'Makefile' has modification time 0.054 s in the future
+/usr/bin/make -f CMakeFiles/cmTC_c26ae.dir/build.make CMakeFiles/cmTC_c26ae.dir/build
+make[1]: Entering directory '/cygdrive/d/wangqingAlgorithm/leetcode/404/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c26ae.dir/feature_tests.cxx.o
+/usr/bin/c++.exe    -std=c++98 -o CMakeFiles/cmTC_c26ae.dir/feature_tests.cxx.o -c /cygdrive/d/wangqingAlgorithm/leetcode/404/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_c26ae.exe
+/cygdrive/c/Users/25851/.CLion2017.3/system/cygwin_cmake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_c26ae.dir/link.txt --verbose=1
+/usr/bin/c++.exe    -Wl,--enable-auto-import  CMakeFiles/cmTC_c26ae.dir/feature_tests.cxx.o  -o cmTC_c26ae.exe -Wl,--out-implib,libcmTC_c26ae.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+make[1]: Leaving directory '/cygdrive/d/wangqingAlgorithm/leetcode/404/cmake-build-debug/CMakeFiles/CMakeTmp'
+make: warning:  Clock skew detected.  Your build may be incomplete.
+>>>>>>> 441dfbd19d8af4ef8f69dd73af6534f08c5faeeb
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
