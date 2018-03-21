@@ -1,4 +1,8 @@
+<<<<<<< HEAD
+ToolSet: 2.8.2@D:\Cygwin
+=======
 ToolSet: 2.10.0@D:\Cygwin
+>>>>>>> 441dfbd19d8af4ef8f69dd73af6534f08c5faeeb
 Options: 
 
 Options:

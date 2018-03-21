@@ -1,6 +1,12 @@
+<<<<<<< HEAD
+C:\Users\hasee\.CLion2017.3\system\cygwin_cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /cygdrive/e/wangqingAlgorithm/leetcode/404
+-- The C compiler identification is GNU 5.3.0
+-- The CXX compiler identification is GNU 5.3.0
+=======
 C:\Users\25851\.CLion2017.3\system\cygwin_cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /cygdrive/d/wangqingAlgorithm/leetcode/404
 -- The C compiler identification is GNU 6.4.0
 -- The CXX compiler identification is GNU 6.4.0
+>>>>>>> 441dfbd19d8af4ef8f69dd73af6534f08c5faeeb
 -- Check for working C compiler: /usr/bin/cc
 -- Check for working C compiler: /usr/bin/cc -- works
 -- Detecting C compiler ABI info
@@ -15,4 +21,8 @@ C:\Users\25851\.CLion2017.3\system\cygwin_cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE
 -- Detecting CXX compile features - done
 -- Configuring done
 -- Generating done
+<<<<<<< HEAD
+-- Build files have been written to: /cygdrive/e/wangqingAlgorithm/leetcode/404/cmake-build-debug
+=======
 -- Build files have been written to: /cygdrive/d/wangqingAlgorithm/leetcode/404/cmake-build-debug
+>>>>>>> 441dfbd19d8af4ef8f69dd73af6534f08c5faeeb

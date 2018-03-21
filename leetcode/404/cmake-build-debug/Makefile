@@ -39,19 +39,33 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
+<<<<<<< HEAD
+CMAKE_COMMAND = /cygdrive/c/Users/hasee/.CLion2017.3/system/cygwin_cmake/bin/cmake.exe
+
+# The command to remove a file.
+RM = /cygdrive/c/Users/hasee/.CLion2017.3/system/cygwin_cmake/bin/cmake.exe -E remove -f
+=======
 CMAKE_COMMAND = /cygdrive/c/Users/25851/.CLion2017.3/system/cygwin_cmake/bin/cmake.exe
 
 # The command to remove a file.
 RM = /cygdrive/c/Users/25851/.CLion2017.3/system/cygwin_cmake/bin/cmake.exe -E remove -f
+>>>>>>> 441dfbd19d8af4ef8f69dd73af6534f08c5faeeb
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
+CMAKE_SOURCE_DIR = /cygdrive/e/wangqingAlgorithm/leetcode/404
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /cygdrive/e/wangqingAlgorithm/leetcode/404/cmake-build-debug
+=======
 CMAKE_SOURCE_DIR = /cygdrive/d/wangqingAlgorithm/leetcode/404
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /cygdrive/d/wangqingAlgorithm/leetcode/404/cmake-build-debug
+>>>>>>> 441dfbd19d8af4ef8f69dd73af6534f08c5faeeb
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +73,11 @@ CMAKE_BINARY_DIR = /cygdrive/d/wangqingAlgorithm/leetcode/404/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+<<<<<<< HEAD
+	/cygdrive/c/Users/hasee/.CLion2017.3/system/cygwin_cmake/bin/cmake.exe -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+=======
 	/cygdrive/c/Users/25851/.CLion2017.3/system/cygwin_cmake/bin/cmake.exe -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+>>>>>>> 441dfbd19d8af4ef8f69dd73af6534f08c5faeeb
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +88,11 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+<<<<<<< HEAD
+	/cygdrive/c/Users/hasee/.CLion2017.3/system/cygwin_cmake/bin/cmake.exe -E echo No\ interactive\ CMake\ dialog\ available.
+=======
 	/cygdrive/c/Users/25851/.CLion2017.3/system/cygwin_cmake/bin/cmake.exe -E echo No\ interactive\ CMake\ dialog\ available.
+>>>>>>> 441dfbd19d8af4ef8f69dd73af6534f08c5faeeb
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +102,15 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
+<<<<<<< HEAD
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/e/wangqingAlgorithm/leetcode/404/cmake-build-debug/CMakeFiles /cygdrive/e/wangqingAlgorithm/leetcode/404/cmake-build-debug/CMakeFiles/progress.marks
+	$(MAKE) -f CMakeFiles/Makefile2 all
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/e/wangqingAlgorithm/leetcode/404/cmake-build-debug/CMakeFiles 0
+=======
 	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/d/wangqingAlgorithm/leetcode/404/cmake-build-debug/CMakeFiles /cygdrive/d/wangqingAlgorithm/leetcode/404/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
 	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/d/wangqingAlgorithm/leetcode/404/cmake-build-debug/CMakeFiles 0
+>>>>>>> 441dfbd19d8af4ef8f69dd73af6534f08c5faeeb
 .PHONY : all
 
 # The main clean target
