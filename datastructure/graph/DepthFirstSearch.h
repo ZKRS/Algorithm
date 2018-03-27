@@ -15,6 +15,13 @@
 
 using namespace std;
 
+static const int WHITE = 0;
 vector<int> node_status; // 记录结点访问状态
+stack<int> s; // 暂存访问过的结点
+
+void dfs() {
+
+}
+
 
 #endif //GRAPH_DEPTHFIRSTSEARCH_H
