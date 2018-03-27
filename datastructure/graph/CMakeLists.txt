@@ -3,4 +3,4 @@ project(graph)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(graph main.cpp DenseGraph.h SparseGraph.h Edge.h)
+add_executable(graph main.cpp DenseGraph.h SparseGraph.h Edge.h ReadGraph.h ReadGraph.h ConnectedComponents.h BreadthFirstSearch.h DepthFirstSearch.h)
