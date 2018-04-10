@@ -9,7 +9,6 @@ using namespace std;
  * 输入: q 对字符串, 每个字符串各占一行
  * 输出: 没对字符串公共子序列长度
  *
- *
  */
 using namespace std;
 
@@ -33,7 +32,6 @@ int longestCommonSubsequence(string s1, string s2) {
             if (s1[i] != s2[j]) memo[i + 1][j + 1] = max(memo[i + 1][j], memo[i][j + 1]);
         }
     }
-
 
     for (int k = 0; k < memo[s1.size()][s2.size()]; ++k)
         cout << common[k];
