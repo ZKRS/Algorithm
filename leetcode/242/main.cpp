@@ -1,6 +1,7 @@
 #include <iostream>
 #include <unordered_map>
 #include <algorithm>
+#include <bits/shared_ptr.h>
 
 using namespace std;
 
@@ -37,7 +38,6 @@ public:
         sort(t.begin(), t.end());
 
         return s == t;
-
     }
 };
 
